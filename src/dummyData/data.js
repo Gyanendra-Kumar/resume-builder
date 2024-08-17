@@ -1,0 +1,100 @@
+export default {
+  firstName: "Gyanendra",
+  lastName: "Kumar",
+  jobTitle: "Front-End Developer",
+  address: "House No-57, Road no-5",
+  phone: "1234567890",
+  email: "abc@gmail.com",
+  themeColor: "#ff6666",
+  summary:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+  experience: [
+    {
+      id: 1,
+      title: "Full Stack Developer",
+      companyName: "Amazon",
+      city: "New York",
+      state: "NY",
+      startDate: "Jan 2021",
+      endDate: "",
+      currentlyWorking: true,
+      workSummery: [
+        "Developing E-Commerce application. ",
+        "Developed JWT authentication and authorization like Admin, User, Editor. ",
+        "Only Admin can delete projects from Dashboard.",
+        "Developed profile section where user can update their profile details.",
+        "Users can view all products, search specific products or user can filter products based on category.",
+        "Checked performance of the application in chrome light house at incongnito mode, which is 97 out of 100.",
+        "Implemented optimization techniques like lazy loading, useCallback, useMemo, React Memo, code splitting.",
+      ],
+    },
+    {
+      id: 2,
+      title: "Full Stack Developer",
+      companyName: "Amazon",
+      city: "New York",
+      state: "NY",
+      startDate: "Jan 2020",
+      endDate: "Jan 2024",
+      currentlyWorking: true,
+      workSummery: [
+        "Developing E-Commerce application. ",
+        "Developed JWT authentication and authorization like Admin, User, Editor. ",
+        "Only Admin can delete projects from Dashboard.",
+        "Developed profile section where user can update their profile details.",
+        "Users can view all products, search specific products or user can filter products based on category.",
+        "Checked performance of the application in chrome light house at incongnito mode, which is 97 out of 100.",
+        "Implemented optimization techniques like lazy loading, useCallback, useMemo, React Memo, code splitting.",
+      ],
+    },
+  ],
+  education: [
+    {
+      id: 1,
+      universityName: "Western Illinois University",
+      startDate: "Aug 2018",
+      endDate: "Dec:2019",
+      degree: "Master",
+      major: "Computer Science",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    },
+    {
+      id: 2,
+      universityName: "Western Illinois University",
+      startDate: "Aug 2018",
+      endDate: "Dec:2019",
+      degree: "Master",
+      major: "Computer Science",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    },
+  ],
+  skills: [
+    {
+      id: 1,
+      name: "React.JS",
+      rating: 80,
+    },
+    {
+      id: 2,
+      name: "Angular",
+      rating: 40,
+    },
+    {
+      id: 3,
+      name: "HTML",
+      rating: 100,
+    },
+    {
+      id: 4,
+      name: "Next.js",
+      rating: 70,
+    },
+    {
+      id: 5,
+      name: "Next.js",
+      rating: 70,
+    },
+  ],
+};

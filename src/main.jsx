@@ -9,6 +9,7 @@ import SignInPage from "./pages/auth/sign-in.jsx";
 import "react-tooltip/dist/react-tooltip.css";
 import Dashboard from "./dashboard/index.jsx";
 import { ThemeProvider } from "./components/theme-provider.jsx";
+import EditResume from "./dashboard/resume/edit/index.jsx";
 
 // Import your publishable key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />,
+      },
+      {
+        path: "/dashboard/resume/:resumeId/edit",
+        element: <EditResume />,
       },
     ],
   },
